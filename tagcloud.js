@@ -21,10 +21,12 @@ class Tagcloud extends React.Component {
     let tags = this.props.tags.map((tag) => {
       return <TagItem key={tag.id} tag={tag} className="tag-item-container" />
     })
-    return <div className="tag-list-container">
+    return ( 
+          <div className="tag-list-container">
           {tags}
           <NewTagItem addTagEvent={this.addTagEvent} />
           </div>
+          )
   }
 
 addTagEvent(tagItem){
@@ -75,6 +77,7 @@ ReactDOM.render(
     <Tagcloud tags={allTags}/>,
     document.getElementById('app')
 );
+
 
 export default Tagcloud
 
