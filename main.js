@@ -3,6 +3,6 @@ import ReactDOM from 'react-dom';
 import Tagcloud from './tagcloud';
 
 ReactDOM.render(
-    <Tagcloud />,
+    <Tagcloud tags={allTags}/>,
     document.getElementById('app')
 );
