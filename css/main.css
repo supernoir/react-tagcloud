@@ -1,0 +1,12 @@
+/*
+PLEASE REPLACE WITH PARENT CSS
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,500,700,200,600);
+
+body {
+    font-family: "Lato", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	margin: 0px;   
+    padding: 0px;
+    background: #f0f0eb;
+  }
